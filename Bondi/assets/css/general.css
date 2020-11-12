@@ -1,0 +1,15 @@
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+body {
+	background-color: #EEEEEE;
+	font-family: 'Amita';
+}
