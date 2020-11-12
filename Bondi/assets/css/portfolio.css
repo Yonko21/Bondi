@@ -68,3 +68,38 @@
 	border-radius: 9px;
 	transition: 0.1s;
 }
+.projects {
+	border: 1px solid yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 58px;
+}
+.project {
+	width: 271px;
+	height: 200px;
+	position: relative;
+}
+.project > h4 {
+	position: absolute;
+	width: 100%;
+	top: 40px;
+    font-family: 'robotolight';
+    font-size: 44px;
+    text-shadow: 0px 1px 8px rgba(0, 0, 0, 1);
+	color: #33d1cc;
+	letter-spacing: 5px;
+}
+.project > a {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    font-family: 'robotomedium';
+	background-color: #33d1cc;
+	text-decoration: none;
+	color: #fff;
+	padding: 17px 0px;
+	letter-spacing: 2px;
+}
