@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-
 body {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'robotoregular';
 }
 .portfolio {
 	width: 100%;
@@ -24,14 +22,14 @@ body {
 	align-self: center;
 }
 .k_wrap h2 {
+    font-family: 'robotomedium';
 	font-size: 35px;
-  line-height: 27px;
+	line-height: 27px;
 	color: #1a2940;
 	margin-top: 46px;
 }
 .k_wrap h3 {
 	font-size: 15px;
-	font-weight: 400;
 	margin-top: 2px;
 	color: #a8b9c0;
 	line-height: 17px;
