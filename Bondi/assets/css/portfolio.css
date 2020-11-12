@@ -21,6 +21,7 @@ body {
 }
 .p_logo {
 	margin-top: 58px;
+	align-self: center;
 }
 .k_wrap h2 {
 	font-size: 35px;
