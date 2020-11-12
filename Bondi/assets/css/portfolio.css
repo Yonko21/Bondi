@@ -1,12 +1,10 @@
-body {
-    font-family: 'robotoregular';
-}
 .portfolio {
 	width: 100%;
 	height: 996px;
 	background-color: #eff7fa;
 	display: flex;
 	justify-content: center;
+    font-family: 'robotoregular';
 }
 .k_wrap {
 	width: 1171px;
