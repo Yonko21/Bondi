@@ -1,22 +1,22 @@
 .portfolio {
 	width: 100%;
-	height: 996px;
+	/*height: 996px;*/
+	padding-top: 58px;
+	padding-bottom: 60px;
 	background-color: #eff7fa;
 	display: flex;
 	justify-content: center;
     font-family: 'robotoregular';
 }
 .k_wrap {
-	width: 1171px;
+	max-width: 1171px;
 	display: flex;
 	position: relative;
 	flex-direction: column;
 	justify-content: flex-start;
-	border: 1px solid red;
 	text-align: center;
 }
 .p_logo {
-	margin-top: 58px;
 	align-self: center;
 }
 .k_wrap h2 {
@@ -69,7 +69,6 @@
 	transition: 0.1s;
 }
 .projects {
-	border: 1px solid yellow;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -80,6 +79,8 @@
 	width: 271px;
 	height: 200px;
 	position: relative;
+	margin-bottom: 28px;
+	box-shadow: 0px 6px 6px -7px rgba(0, 0, 0, 1);
 }
 .project > h4 {
 	position: absolute;
@@ -87,7 +88,7 @@
 	top: 40px;
     font-family: 'robotolight';
     font-size: 44px;
-    text-shadow: 0px 1px 8px rgba(0, 0, 0, 1);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
 	color: #33d1cc;
 	letter-spacing: 5px;
 }
@@ -102,4 +103,39 @@
 	color: #fff;
 	padding: 17px 0px;
 	letter-spacing: 2px;
+}
+.portfolio .k_wrap > button {
+    font-family: 'robotomedium';
+    font-size: 15px;
+    width: 208px;
+    height: 45px;
+	background-color: #ff3150;
+	color: #ffc501;
+	align-self: center;
+	border: none;
+	border-radius: 17px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.test {
+	background-color: #474747;
+	width: 100%;
+	height: 100px;
+}
+@media screen and (max-width: 768px) {
+	.k_wrap {
+	width: 90vw;
+	}
+	.projects {
+	justify-content: space-around;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+.k_wrap ul {
+	display: flex;
+	flex-direction: column;
+}
+
 }
