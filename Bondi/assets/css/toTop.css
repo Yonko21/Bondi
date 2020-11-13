@@ -1,0 +1,51 @@
+.toTop {
+    position: absolute;
+    opacity: 0;
+}.toTop.active {
+    opacity: 1;
+}
+.toTop img {
+    width: 2vw;
+    height: 2vw;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s;
+    background-color: #fff;
+    padding: 1vw;
+    border: 2px solid #19283f;
+    border-radius: 50%;
+    z-index: 500;
+}
+.toTop.active img {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+.toTop:hover {
+    opacity: 0.8;
+}
+.toTop:active {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+.toTop img {
+  width: 5vw;
+  height: 5vw;
+  position: fixed;
+  bottom: 2vw;
+  right: 10.5vw;
+  opacity: 0;
+  pointer-events: none;
+  padding: 1vw;
+}
+.toTop.active img {
+  bottom: 8vw;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+}
