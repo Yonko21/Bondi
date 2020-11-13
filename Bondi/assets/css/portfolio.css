@@ -122,8 +122,6 @@
 }
 .portfolio .k_wrap > button:hover {
     font-size: 16px;
-    width: 214px;
-    height: 47px;
 	background-color: #F42F4D;
 	color: #ffc501;
 }
@@ -133,7 +131,7 @@
 	height: 100px;
 }
 .hide {
-	opacity: 0;
+	display: none;
 }
 .margin {
 	margin-right: 30px;
