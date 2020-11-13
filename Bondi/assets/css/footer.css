@@ -18,10 +18,12 @@
 	float: left;
 	font-size: 13px;
     line-height: 30px;
+    position: absolute;
 	/*height: 500px;
 	margin: 100px;*/
 }
 /*.second_column {
+	po
 	width: 25%;
 	
 
