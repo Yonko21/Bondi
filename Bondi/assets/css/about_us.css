@@ -45,7 +45,8 @@
 }
 .y_wrap p {
 	padding-top: 26px;
-	max-width: 572px;
+	max-width: 575px;
+	line-height: 1.2;
 	align-self: center;
 	font-family: 'robotoregular';
 	padding-bottom: 58px;
@@ -59,6 +60,7 @@
 	display: flex;
 }
 .y_wrap .retina {
+	padding-top: 88px;
 	width: 451px;
 	/*height: 330px;*/
 	/*float: left;*/
@@ -71,7 +73,7 @@
 }
 .y_wrap .retina p {
 	text-align: left;
-	width: 386px;
+	max-width: 386px;
 	height: 151px;
 	font-size: 15px;
 	line-height: 1.2;
