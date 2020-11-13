@@ -57,6 +57,9 @@
 	color: rgb(168, 185, 192);
 	padding: 15px 21px;
 }
+.k_wrap ul li:hover {
+	color: rgb(117, 120, 121);
+}
 .k_wrap ul li:last-child {
 	margin-right: 0px;
 }
@@ -117,11 +120,25 @@
 	margin-top: 30px;
 	cursor: pointer;
 }
+.portfolio .k_wrap > button:hover {
+    font-size: 16px;
+    width: 214px;
+    height: 47px;
+	background-color: #F42F4D;
+	color: #ffc501;
+}
 .test {
 	background-color: #474747;
 	width: 100%;
 	height: 100px;
 }
+.hide {
+	opacity: 0;
+}
+.margin {
+	margin-right: 30px;
+}
+
 @media screen and (max-width: 768px) {
 	.k_wrap {
 	width: 90vw;
