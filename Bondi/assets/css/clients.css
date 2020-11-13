@@ -24,27 +24,21 @@
 .slides {
 	display: inline-flex;
 }
-.clients .wrap_clients::before {
+.clients .wrap_clients::before, .clients .wrap_clients::after {
 	content: "";
 	position: absolute;
-	left: 0;
 	top: 0;
 	width: 200px;
 	height: 182px;
-	background: rgb(255,255,255);
-	background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.7539390756302551) 85%, rgba(0,212,255,0) 100%);
 	z-index: 20;
+	}
+.clients .wrap_clients::before {
+	left: 0;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.7539390756302551) 85%, rgba(0,212,255,0) 100%);
 }
 .clients .wrap_clients::after {
-	content: "";
-	position: absolute;
 	right: 0;
-	top: 0;
-	width: 200px;
-	height: 182px;
-	background: rgb(255,255,255);
 	background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7539390756302551) 69%, rgba(0,212,255,0) 100%);
-	z-index: 20;
 }
 @keyframes scroll {
 	0%{
@@ -58,3 +52,20 @@
 	}
 }
 
+@media screen and (max-width: 768px) {
+
+	.clients .wrap_clients::before, .clients .wrap_clients::after {
+	width: 150px;
+	height: 182px;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.clients .wrap_clients::before, .clients .wrap_clients::after {
+	width: 100px;
+	height: 182px;
+	}
+}

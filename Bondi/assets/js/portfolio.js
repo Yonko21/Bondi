@@ -4,33 +4,33 @@ $(document).ready(function(){
 		$(this).siblings('li').removeClass('active');
 
 			if ($(this).hasClass('all')) {
-			$('.project').siblings('div').removeClass('hide');
+			$('.project').siblings('div').removeClass('hide').removeClass('margin');
 			}
 			if ($(this).hasClass('design')) {
 			$('.project').siblings('div').addClass('hide');
-			$('.project').siblings('.design').removeClass('hide');
+			$('.project').siblings('.design').removeClass('hide').addClass('margin');
 			}
 			if ($(this).hasClass('code')) {
 			$('.project').siblings('div').addClass('hide');
-			$('.project').siblings('.code').removeClass('hide');
+			$('.project').siblings('.code').removeClass('hide').addClass('margin');
 			}
 			if ($(this).hasClass('photos')) {
 			$('.project').siblings('div').addClass('hide');
-			$('.project').siblings('.photos').removeClass('hide');
+			$('.project').siblings('.photos').removeClass('hide').addClass('margin');
 			}
 			if ($(this).hasClass('apps')) {
 			$('.project').siblings('div').addClass('hide');
-			$('.project').siblings('.apps').removeClass('hide');
+			$('.project').siblings('.apps').removeClass('hide').addClass('margin');
 			}
 	})
 
-	$('.project a').slideUp();
+	$('.project a').hide();
 	$('.project').mouseenter(function() {
 		$(this).children('a').slideDown();
 	})
 
 	$('.project').mouseleave(function() {
-		$('.project a').slideUp();
+		$('.project a').slideUp(100);
 	})
 
 });

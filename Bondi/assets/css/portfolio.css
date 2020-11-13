@@ -90,10 +90,12 @@
 	width: 100%;
 	top: 40px;
     font-family: 'robotolight';
-    font-size: 44px;
-    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
-	color: #33d1cc;
+    font-size: 28px;
+    padding: 10px;
+    text-shadow: -1px 1px 15px rgba(0, 0, 0, 1);
+	color: #1a2940;
 	letter-spacing: 5px;
+	background-color: #eff7fa5c;
 }
 .project > a {
 	position: absolute;
@@ -101,7 +103,7 @@
 	left: 0;
 	bottom: 0;
     font-family: 'robotomedium';
-	background-color: #33d1cc;
+	background-color: #33d1cca1;
 	text-decoration: none;
 	color: #fff;
 	padding: 17px 0px;
@@ -124,11 +126,6 @@
     font-size: 16px;
 	background-color: #F42F4D;
 	color: #ffc501;
-}
-.test {
-	background-color: #474747;
-	width: 100%;
-	height: 100px;
 }
 .hide {
 	display: none;
