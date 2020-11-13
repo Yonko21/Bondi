@@ -5,13 +5,17 @@
 	justify-content: center;
 }
 .clients .wrap_clients {
-	border: 1px solid green;
 	width: 1171px;
 	display: flex;
 	flex-direction: row;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
+}
+.clients .wrap_clients ul {
+	display: inline-flex;
+	max-height: 182px;
+	animation: scroll 20s infinite linear;
 }
 .clients .wrap_clients img {
 	height: 62px;
@@ -20,16 +24,19 @@
 .slides {
 	display: inline-flex;
 }
-.left {
+.clients .wrap_clients::before {
+	content: "";
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 200px;
 	height: 182px;
 	background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.7539390756302551) 85%, rgba(0,212,255,0) 100%);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.7539390756302551) 85%, rgba(0,212,255,0) 100%);
+	z-index: 20;
 }
-.right {
+.clients .wrap_clients::after {
+	content: "";
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -37,5 +44,17 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.7
 	height: 182px;
 	background: rgb(255,255,255);
 	background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7539390756302551) 69%, rgba(0,212,255,0) 100%);
+	z-index: 20;
+}
+@keyframes scroll {
+	0%{
+		transform: translateX(0%);
+	}
+	50%{
+		transform: translateX(-500px);
+	}
+	100%{
+		transform: translateX(0%);
+	}
 }
 
