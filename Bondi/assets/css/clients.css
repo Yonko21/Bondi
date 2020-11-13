@@ -1,0 +1,41 @@
+.clients {
+	width: 100%;
+	background: rgb(255,255,255);
+	display: flex;
+	justify-content: center;
+}
+.clients .wrap_clients {
+	border: 1px solid green;
+	width: 1171px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+.clients .wrap_clients img {
+	height: 62px;
+	padding: 60px 30px;
+}
+.slides {
+	display: inline-flex;
+}
+.left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 182px;
+	background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 11%, rgba(255,255,255,0.7539390756302551) 85%, rgba(0,212,255,0) 100%);
+}
+.right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 200px;
+	height: 182px;
+	background: rgb(255,255,255);
+	background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7539390756302551) 69%, rgba(0,212,255,0) 100%);
+}
+

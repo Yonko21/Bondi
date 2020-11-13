@@ -8,7 +8,7 @@
 	justify-content: center;
     font-family: 'robotoregular';
 }
-.k_wrap {
+.wrap_portfolio {
 	max-width: 1171px;
 	display: flex;
 	position: relative;
@@ -19,14 +19,14 @@
 .p_logo {
 	align-self: center;
 }
-.k_wrap h2 {
+.wrap_portfolio h2 {
     font-family: 'robotomedium';
 	font-size: 35px;
 	line-height: 27px;
 	color: #1a2940;
 	margin-top: 46px;
 }
-.k_wrap h3 {
+.wrap_portfolio h3 {
 	font-size: 15px;
 	margin-top: 2px;
 	color: #a8b9c0;
@@ -34,7 +34,7 @@
 	position: relative;
 	padding: 17px;
 }
-.k_wrap h3:after {
+.wrap_portfolio h3:after {
 	content : "";
 	position: absolute;
 	bottom: 0;
@@ -44,26 +44,26 @@
 	width: 150px;
 	border-bottom:2px solid #7fe0de;
 }
-.k_wrap ul {
+.wrap_portfolio ul {
 	display: inline-flex;
 	align-self: center;
 	align-items: center;
 	margin-top: 60px;
 }
-.k_wrap ul li {
+.wrap_portfolio ul li {
 	font-size: 15px;
 	line-height: 15px;
 	cursor: pointer;
 	color: rgb(168, 185, 192);
 	padding: 15px 21px;
 }
-.k_wrap ul li:hover {
+.wrap_portfolio ul li:hover {
 	color: rgb(117, 120, 121);
 }
-.k_wrap ul li:last-child {
+.wrap_portfolio ul li:last-child {
 	margin-right: 0px;
 }
-.k_wrap ul li.active {
+.wrap_portfolio ul li.active {
 	padding: 15px 22px;
 	margin: 0px 19px;
 	background-color: #ff3150;
@@ -107,7 +107,7 @@
 	padding: 17px 0px;
 	letter-spacing: 2px;
 }
-.portfolio .k_wrap > button {
+.portfolio .wrap_portfolio > button {
     font-family: 'robotomedium';
     font-size: 15px;
     width: 208px;
@@ -120,7 +120,7 @@
 	margin-top: 30px;
 	cursor: pointer;
 }
-.portfolio .k_wrap > button:hover {
+.portfolio .wrap_portfolio > button:hover {
     font-size: 16px;
 	background-color: #F42F4D;
 	color: #ffc501;
@@ -138,7 +138,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	.k_wrap {
+	.wrap_portfolio {
 	width: 90vw;
 	}
 	.projects {
@@ -148,7 +148,7 @@
 }
 
 @media screen and (max-width: 480px) {
-.k_wrap ul {
+.wrap_portfolio ul {
 	display: flex;
 	flex-direction: column;
 }
