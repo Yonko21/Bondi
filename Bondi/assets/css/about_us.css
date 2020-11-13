@@ -7,7 +7,6 @@
 	display: flex;
 	justify-content: center;
     font-family: 'robotoregular';
-	border: 1px solid red;
 }
 .y_wrap {
 	max-width: 1171px;
