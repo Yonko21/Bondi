@@ -1,7 +1,8 @@
 .toTop {
     position: absolute;
     opacity: 0;
-}.toTop.active {
+}
+.toTop.active {
     opacity: 1;
 }
 .toTop img {
@@ -46,6 +47,4 @@
   bottom: 8vw;
   pointer-events: auto;
   opacity: 1;
-}
-
 }
