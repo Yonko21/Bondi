@@ -1,0 +1,141 @@
+.portfolio {
+	width: 100%;
+	/*height: 996px;*/
+	padding-top: 58px;
+	padding-bottom: 60px;
+	background-color: #eff7fa;
+	display: flex;
+	justify-content: center;
+    font-family: 'robotoregular';
+}
+.k_wrap {
+	max-width: 1171px;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: center;
+}
+.p_logo {
+	align-self: center;
+}
+.k_wrap h2 {
+    font-family: 'robotomedium';
+	font-size: 35px;
+	line-height: 27px;
+	color: #1a2940;
+	margin-top: 46px;
+}
+.k_wrap h3 {
+	font-size: 15px;
+	margin-top: 2px;
+	color: #a8b9c0;
+	line-height: 17px;
+	position: relative;
+	padding: 17px;
+}
+.k_wrap h3:after {
+	content : "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 150px;
+	border-bottom:2px solid #7fe0de;
+}
+.k_wrap ul {
+	display: inline-flex;
+	align-self: center;
+	align-items: center;
+	margin-top: 60px;
+}
+.k_wrap ul li {
+	font-size: 15px;
+	line-height: 15px;
+	cursor: pointer;
+	color: rgb(168, 185, 192);
+	padding: 15px 21px;
+}
+.k_wrap ul li:last-child {
+	margin-right: 0px;
+}
+.k_wrap ul li.active {
+	padding: 15px 22px;
+	margin: 0px 19px;
+	background-color: #ff3150;
+	color: #ffc501;
+	border-radius: 9px;
+	transition: 0.1s;
+}
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 58px;
+}
+.project {
+	width: 271px;
+	height: 200px;
+	position: relative;
+	margin-bottom: 28px;
+	box-shadow: 0px 6px 6px -7px rgba(0, 0, 0, 1);
+}
+.project > h4 {
+	position: absolute;
+	width: 100%;
+	top: 40px;
+    font-family: 'robotolight';
+    font-size: 44px;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+	color: #33d1cc;
+	letter-spacing: 5px;
+}
+.project > a {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    font-family: 'robotomedium';
+	background-color: #33d1cc;
+	text-decoration: none;
+	color: #fff;
+	padding: 17px 0px;
+	letter-spacing: 2px;
+}
+.portfolio .k_wrap > button {
+    font-family: 'robotomedium';
+    font-size: 15px;
+    width: 208px;
+    height: 45px;
+	background-color: #ff3150;
+	color: #ffc501;
+	align-self: center;
+	border: none;
+	border-radius: 17px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.test {
+	background-color: #474747;
+	width: 100%;
+	height: 100px;
+}
+@media screen and (max-width: 768px) {
+	.k_wrap {
+	width: 90vw;
+	}
+	.projects {
+	justify-content: space-around;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+.k_wrap ul {
+	display: flex;
+	flex-direction: column;
+}
+
+}
