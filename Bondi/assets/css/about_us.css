@@ -1,7 +1,6 @@
 .about {
 	width: 100%;
 	padding-top: 58px;
-	padding-bottom: 60px;
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
@@ -95,4 +94,10 @@
 	color: #ffc501;
 	border: none;
 	font-family: 'robotomedium';
+	cursor: pointer;
+}
+.about .retina > button:hover {
+	font-size: 16px;
+	background-color: #F42F4D;
+	color: #ffc501;
 }
