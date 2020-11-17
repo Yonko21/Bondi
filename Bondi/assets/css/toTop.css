@@ -1,50 +1,53 @@
 .toTop {
-    position: absolute;
-    opacity: 0;
+	position: absolute;
+	opacity: 0;
 }
 .toTop.active {
-    opacity: 1;
+	opacity: 1;
+	transition: 1s;
 }
 .toTop img {
-    width: 2vw;
-    height: 2vw;
-    position: fixed;
-    bottom: 16px;
-    right: 32px;
-    opacity: 0;
-    pointer-events: none;
-    transition: 1s;
-    background-color: #fff;
-    padding: 1vw;
-    border: 2px solid #19283f;
-    border-radius: 50%;
-    z-index: 500;
+	width: 1.5vw;
+	height: 1vw;
+	position: fixed;
+	bottom: 16px;
+	right: 32px;
+	opacity: 0;
+	pointer-events: none;
+	background-color: #fff;
+	padding: 0.5vw;
+	border: 2px solid #19283f;
+	box-shadow: 0px 0px 5px -2px rgb(0, 0, 0, 0.6);
+	border-radius: 0.3vw;
+	z-index: 500;
 }
 .toTop.active img {
-    bottom: 32px;
-    pointer-events: auto;
-    opacity: 1;
+	bottom: 32px;
+	pointer-events: auto;
+	opacity: 1;
 }
-.toTop:hover {
-    opacity: 0.8;
-}
-.toTop:active {
-    opacity: 1;
+.toTop img:hover {
+	border: 3px solid #19283f;
+	right: 31px;
 }
 
 @media screen and (max-width: 768px) {
 .toTop img {
-  width: 5vw;
-  height: 5vw;
+  width: 3.75vw;
+  height: 2.5vw;
   position: fixed;
   bottom: 2vw;
-  right: 10.5vw;
+  right: 8vw;
   opacity: 0;
   pointer-events: none;
   padding: 1vw;
+  border-radius: 0.9vw;
+}.toTop img:hover {
+	border: 3px solid #19283f;
+	right: 8vw;
 }
 .toTop.active img {
-  bottom: 8vw;
+  bottom: 6vw;
   pointer-events: auto;
   opacity: 1;
 }

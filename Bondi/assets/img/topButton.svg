@@ -1,33 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X8 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5.33335in" height="5.33334in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 1834 1834"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.5in" height="4.29936in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4757 2406"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil1 {fill:none}
     .fil0 {fill:#19283F}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_1662578120688">
-   <g id="_2279925014560">
+  <g id="_2147253007632">
+   <g>
     <g>
-     <path class="fil0" d="M688 1450l-612 0c-42,0 -76,-34 -76,-76 0,-42 34,-77 76,-77l612 0c42,0 76,35 76,77 0,42 -34,76 -76,76l0 0z"/>
+     <path class="fil0" d="M1985 163l-1930 1926c-73,72 -73,190 -1,263 73,72 190,72 263,0l1930 -1926c73,-73 191,-73 263,0l1930 1926c73,72 190,72 263,0 36,-37 54,-84 54,-132 0,-47 -18,-95 -54,-131l-1930 -1926c-218,-217 -571,-217 -788,0z"/>
     </g>
-    <g>
-     <path class="fil0" d="M688 533l-612 0c-42,0 -76,-34 -76,-76 0,-42 34,-76 76,-76l612 0c42,0 76,34 76,76 0,42 -34,76 -76,76l0 0z"/>
-    </g>
-    <g>
-     <path class="fil0" d="M688 992l-612 0c-42,0 -76,-34 -76,-77 0,-42 34,-76 76,-76l612 0c42,0 76,34 76,76 0,43 -34,77 -76,77z"/>
-    </g>
-    <path class="fil0" d="M1299 381l0 -172c0,-23 -14,-44 -35,-53 -7,-3 -15,-5 -22,-5 -15,0 -29,6 -39,16l-268 248c-12,11 -18,26 -18,42 0,16 6,31 18,42l268 248c16,16 41,20 61,11 21,-9 35,-30 35,-53l0 -172c211,0 382,172 382,382 0,211 -171,382 -382,382l-306 0c-42,0 -76,35 -76,77 0,42 34,76 76,76l306 0c295,0 535,-240 535,-535 0,-294 -240,-534 -535,-534l0 0z"/>
    </g>
-   <rect class="fil1" width="1834" height="1834"/>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
   </g>
  </g>
 </svg>
