@@ -16,35 +16,33 @@
 	<body>
 		<!--Kalin Section -->
 		<header>
-			<div class="wrap">
-				<div>
-					<img class="header_logo" src="assets/img/header/Logo.png"alt="Logo_Header"></a>
-				</div>
-				<div>
-					<ul class="navbar">
+							
+			<nav>
+				<div class="wrap">
+					<img id="logo" src="assets/img/header/Logo.png"alt="Logo_Header">
+					<ul>
 						<li><a href="/" title="Home">Home</a></li>
 						<li><a href="/" title="Services">Services</a></li>
-						<li><a href="/" title="Portfolio">Portfolio</a></li>
+						<li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
 						<li><a href="/" title="About">About</a></li>
-						<li><a href="/" title="Contact">Contact</a></
+						<li><a href="/" title="Contact">Contact</a></li>
+						
 					</ul>
-					<img class="search" src="assets/img/header/Search.png">			
+						<img class= "search" src="assets/img/header/Search.png">
+					<form>
+							<input class="header_search" type="search" name="search">
+							<button class="login">Login</button>
+					</form>
 				</div>
-				<div class="login">
-					<button>Login</button>
-				</div>
+			</nav>
+				
 				<div class="taste">
-					<p>Taste the Creativity</p>
-				</div>
-				<div class="design">
+					<h2>Taste the Creativity</h2>
 					<p>We make awesome graphic and web design</p>
-				</div>
-				<div class="started">
-					<button>Get Started</button>
-				</div>
-
-			      	
-		 </div>
+					<button class="get">Get Started</button>
+					
+				</div>		
+		
 
 		</header>
  
@@ -75,7 +73,7 @@
 		<button class="toTop" onclick="window.location.href='#'"><img src="assets/img/topButton.svg" alt="back to top"></button>
 
 		<!-- KS Portfolio section -->
-		<div class="portfolio">
+		<div id="portfolio" class="portfolio">
 			<div class="wrap_portfolio">
 				<img class="p_logo" src="assets/img/portfolio/logo.svg" alt="Portfolio logo image">
 				<h2>We Make This</h2>

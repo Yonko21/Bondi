@@ -1,54 +1,115 @@
 header {
-	width: auto;
-    height: 500px;
-	background-color: #19283f;
-	font-family: 'robotoregular';
-	margin-top: 0px;
+	width: 100%;
+	background:  #19283f;
+
 }
 
-/*Navibar*/
-
-.header_logo {
-	position: relative;
-	padding-left:  378px;
-	padding-top: 18px;
+nav {
+	width: 100%;
+	background:  #19283f;
+	display: flex;
+	
 }
-header > .wrap > ul {
-	padding-top: 31px;
-	float: right;
-	line-height: 12px;
+
+.wrap {
+	width: 1171px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.wrap ul {
+	display: inline-flex;
+}
+
+
+.wrap ul:after {
+	content:"|";
+	background-color: #00c6bf;
+	display: block;
+	margin-left: 26px;
+	width: 1px;
+	height: 25px;
+	margin-top: 26px;
+}
+
+.wrap ul li  {
+	margin-top: 31px;
+	margin-left: 41px;
+	margin-bottom: 31px;
+}
+.wrap ul li a {
 	font-size: 15px;
 	color: #a8b9c0;
 	font-weight: 400;
-    font-family: "Roboto";
-	line-height: 11px;
+	font-family: 'robotoregular';
+	text-decoration: none;
+	
 }
 
-header > .wrap > ul  li {
-	float: right;
-	margin-left: 9px;
-	line-height: 12px;
+ #logo {
+	margin-right: auto;
+}
+
+.search {
+	margin-left: 24px;
+	cursor: pointer;
+}
+
+.header_search {
+	margin-left: 24px;
+	display: none;
+
+}
+
+.login {
+	width: 110px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: #ff3150;
+	border: none;
 	font-size: 15px;
-	color: #fff;
-	font-weight: 400;
-	line-height: 11px;
+	color: #ffc501;
+	font-family: "robotomedium";
+	margin-left: 21px;
 }
 
-header > .wrap > ul  li:last-child:after {
-	content:'|';
-	margin: 0;
+.taste {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 1171px;
+	margin:0 auto;
+}
+.taste h2 {
 
+	font-size: 51px;
+	color: #f0f8fb;
+	font-family: "robotolight";
+	align-self: center;
+	margin-top: 127px;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.taste p {
+	font-size: 15px;
+	color: #a8b9c0;
+	font-family: "robotoregular";
+	align-self: center;
+	margin-top: 8px;
 }
 
-  
+.get {
+	width: 190px;
+	height: 45px;
+	border-radius: 20px;
+	background-color: #ff3150;
+	margin-top: 33px;
+	margin-bottom: 143px;
+	border: none;
+	align-self: center;
+	font-size: 15px;
+	color: #ffc501;
+	font-family: "robotomedium";
+
+}
