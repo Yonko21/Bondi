@@ -79,9 +79,17 @@
 .y_wrap .retina p br {
 	height: 27px;
 }
-.y_wrap .comp img {
+.y_wrap .comp .mac {
+	position: relative;
 	width: 720px;
 	height: 415px;
+}
+.y_wrap .comp .screen {
+	position: absolute;
+	width: 540px;
+	height: 340px;
+	margin: 25px auto;
+	right: 90px;
 }
 .about .retina > button {
 	margin-top: 25px;
