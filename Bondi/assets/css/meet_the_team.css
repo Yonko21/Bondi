@@ -9,7 +9,7 @@
     font-family: 'robotoregular';
 }
 .m_wrap {
-	max-width: 1171px;
+	width: 1171px;
 	display: flex;
 	/*position: relative;*/
 	flex-direction: column;
@@ -18,30 +18,61 @@
 }
 .m_wrap h2 {
 	margin-top: 115px;
-	margin-bottom: 32px;
 	font-size: 35px;
 	color: #ffc501;
 	font-family: "robotomedium";
 }
 .m_wrap p {
-	max-width: 965px;
+	max-width: 971px;
 	height: 38px;
-	color: #a8b9c0;;
+	color: #a8b9c0;
+	line-height: 1.2;
 	font-size: 15px;
-	font-family: "robotoregular";
+	font-family: "robotolight";
 	text-align: center;
-	margin-bottom: 62px;
+	margin: 32px auto 62px;
 }
-.cont .m_wrap {
+.m_wrap .cont {
 	width: 100%;
+	display: flex;
 	flex-wrap: wrap;
-	/*flex-flow: column;*/
-	justify-content: center;
+	justify-content: space-between;
 }
 .cont div {
-	width: 270px;
+	/*width: 270px;*/
 	height: 390px;
-	display: inline-block;
-	justify-content: space-around;
 	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
 }
+.cont div img {
+	width: 270px;
+	height: 220px;
+}
+.cont div h3 {
+	/*height: 50px;*/
+	font-size: 20px;
+	background-color: #33d1cc;
+	color: #ffffff;
+	line-height: 0.95;
+	font-family: "robotomedium";
+	padding-top: 14px;
+	padding-bottom: 17px;
+}
+.cont div p {
+	width: 215px;
+	height: 77px;
+	font-size: 15px;
+	color: #a8b9c0;
+	font-family: "robotoregular";
+	text-align: center;
+	margin: 35px auto 38px;
+}
+
+@media screen and (max-width: 768px) {
+	.meet .m_wrap .cont {
+		width: 90vw;
+		background-color: red;
+	}
+} 
