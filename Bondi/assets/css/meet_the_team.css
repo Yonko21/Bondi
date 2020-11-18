@@ -71,8 +71,24 @@
 }
 
 @media screen and (max-width: 768px) {
+	
+	.about .y_wrap .shell {
+		width: 90vw;
+		/*background-color: red;*/
+	}
+
 	.meet .m_wrap .cont {
 		width: 90vw;
-		background-color: red;
+		margin: auto;
+		/*background-color: red;*/
 	}
-} 
+}
+
+@media screen and (max-width: 480px) {
+	.about .y_wrap .shell,
+	.meet .m_wrap .cont {
+		width: 270px;
+		margin: auto;
+		/*background-color: green;*/	
+	}
+}
