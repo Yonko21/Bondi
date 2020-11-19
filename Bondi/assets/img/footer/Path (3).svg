@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" width="35" height="35">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff3298 } 
+	</style>
+	<g id="Footer">
+		<g id="Forth Column">
+			<g id="Social Icons">
+				<path id="Path" class="shp0" d="M34.42 17.89C34.42 27.28 26.81 34.89 17.42 34.89C8.03 34.89 0.42 27.28 0.42 17.89C0.42 8.51 8.03 0.89 17.42 0.89C26.81 0.89 34.42 8.51 34.42 17.89Z" />
+			</g>
+		</g>
+	</g>
+</svg>

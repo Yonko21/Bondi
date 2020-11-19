@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 18" width="9" height="18">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="Footer">
+		<g id="Forth Column">
+			<g id="Social Icons">
+				<path id="Facebook" class="shp0" d="M2.11 17.91L5.82 17.91L5.82 9.01L8.33 9.01L8.65 5.86L5.82 5.86L5.82 4.01C5.82 3.32 6.29 3.16 6.61 3.16L8.61 3.16L8.61 0.1L5.86 0.09C2.81 0.09 2.11 2.37 2.11 3.83L2.11 5.86L0.35 5.86L0.35 9.01L2.11 9.01L2.11 17.91Z" />
+			</g>
+		</g>
+	</g>
+</svg>
