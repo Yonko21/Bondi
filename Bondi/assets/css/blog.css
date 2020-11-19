@@ -1,0 +1,120 @@
+.wrap_blog {
+	max-width: 1171px;
+	margin: 0 auto;
+}
+
+/*---->yellow img<----*/
+.wrap_blog .share_img {
+	margin: 0px auto 48px;
+	display: block;
+	width: 77px;
+	height: 57px;
+	background-color: #ffc400;
+}
+
+/*---->Header<----*/
+.wrap_blog .h_blog {
+	width: 230px;
+	display: block;
+	margin: 0 auto ;
+	text-align: center;
+	font-size: 35px;
+	color: #1a2940;
+	font-weight: 500;
+	font-family: "Roboto";
+}
+
+/*---->Header > ancar tag<----*/
+.wrap_blog .h_blog + a{
+	display: block;
+	width: 150px;
+	text-align: center;
+	font-size: 15px;
+	color: #a8b9c0;
+	font-weight: 400;
+	font-family: "Roboto";
+	margin: 0 auto 58px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid #00c6bf;
+	transition: 0.3s;
+	line-height: 37px;
+}
+/*---->Header ancar tag<----*/
+.wrap_blog .h_blog + a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #00c6bf;
+	width: 100px;
+	transition: 0.3s;
+}
+/*---->Header ancar tag<----*/
+.wrap_blog .h_blog + a:visited {
+	border: none;
+	text-decoration: none;
+}
+/*---->Header ancar tag<----*/
+.wrap_blog .h_blog + a:active {
+	border: none;
+	text-decoration: none;
+}
+
+/*---->All Blogs<----*/
+.wrap_blog .n_center {
+	/*margin: 0 auto;*/
+	text-align: center;
+	margin-right: 30px;
+}
+
+.wrap_blog .n_center [class*='news'] {
+	/*background: blue;*/
+	/*margin: 0 auto;*/
+	width: 370px;
+	display: inline-block;
+}
+/*---->Blog --- 1<----*/
+.wrap_blog .n_center div.news_1 {
+	text-align: left;
+}
+.wrap_blog .n_center [class*='news_'] .p_date{
+	font-size: 13px;
+	color: #a8b9c0;
+	font-weight: 400;
+	font-family: "Roboto";
+}
+
+.wrap_blog .n_center [class*='news_'] .p_text {
+	font-size: 20px;
+	color: #1a2940;
+	font-weight: 400;
+	font-family: "Roboto";
+}
+
+/*---->Blog --- 2<----*/
+.wrap_blog .n_center div.news_2 {
+	text-align: left;
+}
+/*---->Blog --- 3<----*/
+.wrap_blog .n_center div.news_3 {
+	text-align: left;
+}
+/*---->Images at all of the Blogs<----*/
+.wrap_blog .n_center [class*='news_'] img {
+	width: 100%;
+}
+
+/*---->Button<----*/
+.wrap_blog button {
+	display: block;
+	border: none;
+	background: #ff3150;
+	border-radius: 30px;
+	box-sizing: border-box;
+	margin: 60px auto 0px;
+	text-transform: uppercase;
+	width: 208px;
+	height: 45px;
+	font-size: 15px;
+	color: #ffc501;
+	font-weight: 500;
+	font-family: "Roboto";
+}
