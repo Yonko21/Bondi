@@ -50,6 +50,10 @@
 	width: 270px;
 	height: 220px;
 }
+.cont div img:hover {
+	transform: scale(1.1);
+	transition: all, 0.3s;
+}
 .cont div h3 {
 	/*height: 50px;*/
 	font-size: 20px;
