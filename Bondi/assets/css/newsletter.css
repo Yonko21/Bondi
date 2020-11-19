@@ -1,0 +1,44 @@
+.newsletter {
+	background-color: #ffc400;
+	font-size: 20px;
+	color: #1a2940;
+	font-weight: 400;
+	font-family: "robotoregular";
+	padding: 23px 0;
+}
+.newsletter h4 {
+	line-height: 45px;
+	display: inline-block;
+}
+
+form {
+	display: inline-block;
+	font-size: 15px;
+	color: #f0f8fb;
+	font-weight: 400;
+	font-family: "robotoregular";
+}
+
+ .email {
+	border: 1px hidden #fff;
+	background-color: #ffc400;
+	border-bottom: 1px solid #eff7fa;
+	line-height: 45px;
+	margin: 0 30px 0 30px;
+}
+.email::placeholder {
+	font-size: 15px;
+	color: #f0f8fb;
+	font-weight: 400;
+	font-family: "robotoregular";
+}
+ button {
+	background-color: #19283f;
+	font-size: 15px;
+	color: #ffc501;
+	font-weight: 500;
+	font-family: "robotoregular";
+	height: 45px;
+	width: 199px;
+	border-radius: 25px;
+}

@@ -14,14 +14,62 @@
 		<script src="assets/js/jquery-3.5.1.js"></script>
 	</head>
 	<body>
+		<!--Kalin Section -->
 		<header>
-
-		</header>
+							
+			<nav>
+				<div class="wrap">
+					<img id="logo" src="assets/img/header/Logo.png"alt="Logo_Header">
+					<ul>
+						<li><a href="/" title="Home">Home</a></li>
+						<li><a href="/" title="Services">Services</a></li>
+						<li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+						<li><a href="/" title="About">About</a></li>
+						<li><a href="/" title="Contact">Contact</a></li>
+						
+					</ul>
+						<img class= "search" src="assets/img/header/Search.png">
+					<form>
+							<input class="header_search" type="search" name="search">
+							<button class="login">Login</button>
+					</form>
+				</div>
+			</nav>
+				
+				<div class="taste">
+					<h2>Taste the Creativity</h2>
+					<p>We make awesome graphic and web design</p>
+					<button class="get">Get Started</button>
+				</div>
+			</header>
+		<div class="services">
+			<div>
+				<img class="p_logo" src="assets/img/portfolio/logo.svg" alt="Portfolio logo image">
+				<h2>We are Good at</h2>
+				<h3>SOME OF THEASE STUFF UNDER</h3>
+				<div class="one">
+					<img class="1" src="assets/img/service/1.png" alt="one">
+					<img class="1_1" src="assets/img/service/1_1.png" alt="pencil">
+					<p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+				</div>
+				<div class="two">
+					<img src="assets/img/service/two.png" alt="two">
+				    <img src="assets/img/service/1_2.png" alt="computer">
+				    <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+				</div>
+				<div class="three">
+					<img src="assets/img/service/three.png" alt="three">
+					<img src="assets/img/service/1_3.png" alt="plug">
+					<p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+				</div>				
+				
+				
+		</div>
 		<!-- KS - Back to Top button -->
 		<button class="toTop" onclick="window.location.href='#'"><img src="assets/img/topButton.svg" alt="back to top"></button>
 
 		<!-- KS Portfolio section -->
-		<div class="portfolio">
+		<div id="portfolio" class="portfolio">
 			<div class="wrap_portfolio">
 				<img class="p_logo" src="assets/img/portfolio/logo.svg" alt="Portfolio logo image">
 				<h2>We Make This</h2>
@@ -91,7 +139,8 @@
 						<button title="Order">order me one</button>
 					</div>
 					<div class="comp">
-						<img src="assets/img/about_us/mac.png">
+						<img class="mac" src="assets/img/about_us/mac.png">
+						<img class="screen" src="assets/img/about_us/web.gif">
 					</div>
 				</div>
 			</div>
@@ -102,10 +151,26 @@
 				<h2>Meet the Team</h2>
 					<p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
 				<div class="cont">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
+					<div>
+						<img src="assets/img/about_us/luke.png" alt="Luke">
+						<h3>Luke Skywalker</h3>
+						<p>“I don't understand how we got by those troops. I thought we were dead.“</p>
+					</div>
+					<div>
+						<img src="assets/img/about_us/obi.png" alt="Obi-Wan">
+						<h3>Obi-Wan Kenoby</h3>
+						<p>“Your clones are very impressive. You must be very proud”</p>
+					</div>
+					<div>
+						<img src="assets/img/about_us/leia.png" alt="Leia">
+						<h3>Princess Leia </h3>
+						<p> “I don't know who you are or where you came from, but from now on you'll do as I tell you, okay?” </p>
+					</div>
+					<div>
+						<img src="assets/img/about_us/yoda.png" alt="Yoda">
+						<h3>Yoda</h3>
+						<p>“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.”</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -120,9 +185,57 @@
 				    <li><img src="assets/img/clients/advance.png" alt=""></li>
 				</ul>
 			</div>
-		</di>
+		</div>
+		<!-- Advertice Section -->
+		<div class="advertise blue">
+			<div class="wrap_390">
+				<h1>Start Your Ptoject Now</h1>
+				<p>Leave your description and we start the engine.Don't worry,you can cancelanytime.</p>
+				<button>Start Project</button>
+			</div>
+		</div>
+		<!-- Blog Section -->
+		<div class="wrap_blog">
+			<img class="share_img" src="assets/img/blog/share.svg">
+			
+			<h1 class="h_blog">Read Our Blog</h1>
+			<a href="#">new stories</a>
 
+			<div class="n_center">
+				
+				<div class="news_1">
+					<img src="assets/img/blog/snowy.svg">
+					<p class="p_date">January 17,2017</p>
+					<p class="p_text">Some Awesome Blog Title Here</p>
+				</div>
+				<div class="news_2">
+					<img src="assets/img/blog/snowy.svg">
+					<p class="p_date">January 17,2017</p>
+					<p class="p_text">Some Awesome Blog Title Here</p>
+				</div>
+				<div class="news_3">
+					<img src="assets/img/blog/snowy.svg">
+					<p class="p_date">January 17,2017</p>
+					<p class="p_text">Some Awesome Blog Title Here</p>
+				</div>
+			</div>
+			<button>more stories</button>
+		</div>
 		<footer>
+			<!-- Newsletter -->
+			<div class="newsletter">
+				<div class="wrap">
+
+				<h4>Subscribe to our Newsletter:</h4>
+
+				<form method="POST">
+					<div>
+						<input size="51" class="email" placeholder="Enter Your Email Address" type="email" name="email">
+						<button type="submit">Subscribe</button>
+					</div>
+				</form>
+				</div>
+			</div>
 		<!-- Footer_block -->
 		<div class="footer_block">
 			<div class="wrap_footer">
