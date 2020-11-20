@@ -96,6 +96,7 @@
 	color: #1a2940;
 	letter-spacing: 5px;
 	background-color: #eff7fa5c;
+	cursor: context-menu;
 }
 .project > a {
 	position: absolute;
