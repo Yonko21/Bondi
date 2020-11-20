@@ -14,17 +14,17 @@
 	justify-content: center;
 	text-align: center;
 }
-.y_wrap h2 {
+.y_wrap > h2 {
 	font-family: 'robotomedium';
 	margin-top: 52px;
 	font-size: 35px;
-	line-height: 27px;
+	line-height: 25px;
 	color: #1a2940;
 }
 .y_wrap h3 {
 	position: relative;
 	padding-top: 22px;
-	padding-bottom: 18px;
+	padding-bottom: 20px;
 	font-size: 15px;
 	color: #a8b9c0;
 	font-family: 'robotoregular';
@@ -55,20 +55,21 @@
 	width: 100%;
 	/*height: 470px;*/
 	display: flex;
+	justify-content: center;
 }
 .y_wrap .retina {
-	padding-top: 88px;
-	padding-bottom: 30px;
 	width: 451px;
 	text-align: left;
 	font-size: 35px;
 	color: #1a2940;
 	font-family: 'robotomedium';
 }
+.y_wrap .retina h2 {
+	padding-top: 88px;
+}
 .y_wrap .retina p {
-	text-align: left;
+	margin-top: 23px;
 	max-width: 386px;
-	height: 151px;
 	font-size: 15px;
 	line-height: 1.2;
 	color: #a8b9c0;
@@ -78,22 +79,23 @@
 .y_wrap .retina p br {
 	height: 27px;
 }
-.y_wrap .comp .mac {
-	position: relative;
+.comp {
+	display: block;
 	width: 720px;
 	height: 415px;
-}
-.comp {
 	position: relative;
+}
+.y_wrap .comp .mac {
+	width: 100%;
 }
 .y_wrap .comp .screen {
 	position: absolute;
-	width: 540px;
-	height: 340px;
-	margin: 25px auto;
-	right: 90px;
+	width: 75%;
+	height: 82%;
+	top: 6%;
+	right: 12.5%;
 }
-.about .retina > button {
+.shell .retina > button {
 	margin-top: 25px;
 	height: 45px;
 	width: 210px;
@@ -110,4 +112,19 @@
 	font-size: 16px;
 	background-color: #F42F4D;
 	color: #ffc501;
+}
+
+@media screen and (max-width: 768px) {
+	.shell {
+		width: 90vw;
+	}
+	.y_wrap .shell .retina {
+		text-align: center;
+	}
+	.shell .comp {
+		height: auto;
+	}
+}
+@media screen and (max-width: 480px) {
+
 }
