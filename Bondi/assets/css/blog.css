@@ -1,6 +1,7 @@
 .wrap_blog {
-	max-width: 1171px;
+	max-width: 100%;
 	margin: 0 auto;
+	background-color: #fff;
 }
 
 /*---->yellow img<----*/
@@ -21,7 +22,7 @@
 	font-size: 35px;
 	color: #1a2940;
 	font-weight: 500;
-	font-family: "Roboto";
+	font-family: "robotomedium";
 }
 
 /*---->Header > ancar tag<----*/
@@ -32,7 +33,7 @@
 	font-size: 15px;
 	color: #a8b9c0;
 	font-weight: 400;
-	font-family: "Roboto";
+	font-family: 'robotoregular';
 	margin: 0 auto 58px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -79,14 +80,14 @@
 	font-size: 13px;
 	color: #a8b9c0;
 	font-weight: 400;
-	font-family: "Roboto";
+	font-family: ''robotoregular'';
 }
 
 .wrap_blog .n_center [class*='news_'] .p_text {
 	font-size: 20px;
 	color: #1a2940;
 	font-weight: 400;
-	font-family: "Roboto";
+	font-family: 'robotoregular';
 }
 
 /*---->Blog --- 2<----*/
@@ -116,5 +117,5 @@
 	font-size: 15px;
 	color: #ffc501;
 	font-weight: 500;
-	font-family: "Roboto";
+	font-family: 'robotomedium';
 }

@@ -9,7 +9,7 @@
 	margin: 0px auto;}
 
 .advertise .wrap_390 h1 {
-	font-family: DejaVuSans;
+	font-family: 'robotomedium';
 	text-align: center;
 	color: #fff;
 	font-size: 25px;
@@ -20,7 +20,7 @@
 }
 
 .advertise .wrap_390 p {
-	font-family: DejaVuSans;
+	font-family: 'robotoregular';
 	color: #a8b9c0;
 	display: block;
 	text-align: center;
@@ -34,7 +34,7 @@
 
 .advertise .wrap_390 button {
 	display: block;
-	font-family: DejaVuSans;
+	font-family: 'robotomedium';
 	border: none;
 	background: #ff3150;
 	color: #ffc501;

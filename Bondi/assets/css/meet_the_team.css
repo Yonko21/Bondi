@@ -1,7 +1,6 @@
 .meet {
 	width: 100%;
 	/*height: 712px;*/
-	/*padding-top: 58px;*/
 	padding-bottom: 60px;
 	background-color: #eff7fa;
 	display: flex;
@@ -11,7 +10,6 @@
 .m_wrap {
 	width: 1171px;
 	display: flex;
-	/*position: relative;*/
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
@@ -39,12 +37,10 @@
 	justify-content: space-between;
 }
 .cont div {
-	/*width: 270px;*/
 	height: 390px;
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
-	/*align-items: center;*/
 }
 .cont div img {
 	width: 270px;
@@ -53,9 +49,9 @@
 .cont div img:hover {
 	transform: scale(1.1);
 	transition: all, 0.3s;
+	cursor: pointer;
 }
 .cont div h3 {
-	/*height: 50px;*/
 	font-size: 20px;
 	background-color: #33d1cc;
 	color: #ffffff;
@@ -78,13 +74,11 @@
 	
 	.about .y_wrap .shell {
 		width: 90vw;
-		/*background-color: red;*/
 	}
 
 	.meet .m_wrap .cont {
 		width: 90vw;
 		margin: auto;
-		/*background-color: red;*/
 	}
 }
 
@@ -93,6 +87,5 @@
 	.meet .m_wrap .cont {
 		width: 270px;
 		margin: auto;
-		/*background-color: green;*/	
 	}
 }

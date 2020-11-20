@@ -75,7 +75,6 @@
 	font-weight: 300;
 	font-family: 'robotoregular';
 }
-
 .y_wrap .retina p br {
 	height: 27px;
 }
@@ -83,6 +82,9 @@
 	position: relative;
 	width: 720px;
 	height: 415px;
+}
+.comp {
+	position: relative;
 }
 .y_wrap .comp .screen {
 	position: absolute;
