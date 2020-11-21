@@ -1,3 +1,5 @@
+
+
 header {
 	width: 100%;
 	background:  #19283f;
@@ -7,9 +9,13 @@ header {
 nav {
 	width: 100%;
 	background:  #19283f;
-	display: flex;
-	
-}
+	overflow: visible;
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 1;
+  }
+
 
 .wrap {
 	width: 1171px;
@@ -45,7 +51,11 @@ nav {
 	font-weight: 400;
 	font-family: 'robotoregular';
 	text-decoration: none;
-	
+}
+
+.wrap ul li a:hover {
+	color: #00c7c0;
+
 }
 
  #logo {
@@ -111,5 +121,18 @@ nav {
 	font-size: 15px;
 	color: #ffc501;
 	font-family: "robotomedium";
+
+}
+
+.wrap button:hover {
+    font-size: 16px;
+	background-color: #F42F4D;
+	color: #ffc501;
+}
+
+.taste button:hover {
+	font-size: 16px;
+	background-color: #F42F4D;
+	color: #ffc501;
 
 }
