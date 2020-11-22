@@ -17,10 +17,8 @@
 
 @media screen and (max-width: 768px) {
 	.newsletter > div {
-	width: 600px;
-	}
-	.newsletter h4 {
-		display: block;
+	width: 90vw;
+	margin: auto;
 	}
 }
 
@@ -47,7 +45,6 @@ form {
 	font-family: "robotoregular";
 }
  button.subscribe {
-
 	background-color: #19283f;
 	font-size: 15px;
 	color: #ffc501;
@@ -57,4 +54,9 @@ form {
 	width: 199px;
 	border-radius: 25px;
 	border: none;
+	cursor: pointer;
+}
+
+button.subscribe:hover {
+	background-color: #ff3150;
 }
