@@ -6,10 +6,24 @@
 	font-family: "robotoregular";
 	padding: 23px 0;
 }
+.newsletter > div {
+	margin: auto;
+	width: 910px;
+}
 .newsletter h4 {
 	line-height: 45px;
 	display: inline-block;
 }
+
+@media screen and (max-width: 768px) {
+	.newsletter > div {
+	width: 600px;
+	}
+	.newsletter h4 {
+		display: block;
+	}
+}
+
 
 form {
 	display: inline-block;
@@ -33,6 +47,7 @@ form {
 	font-family: "robotoregular";
 }
  button.subscribe {
+
 	background-color: #19283f;
 	font-size: 15px;
 	color: #ffc501;
@@ -41,4 +56,5 @@ form {
 	height: 45px;
 	width: 199px;
 	border-radius: 25px;
+	border: none;
 }
