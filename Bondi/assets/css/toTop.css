@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 768px) {
-.toTop img {
+.toTop, .toTop img {
   width: 3.75vw;
   height: 2.5vw;
   position: fixed;
@@ -44,7 +44,7 @@
 	border: 3px solid #19283f;
 	right: 8vw;
 }
-.toTop.active img {
+.toTop, .toTop.active img {
   bottom: 6vw;
   pointer-events: auto;
   opacity: 1;
