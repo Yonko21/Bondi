@@ -85,13 +85,17 @@
 	margin-bottom: 28px;
 	box-shadow: 0px 6px 6px -7px rgba(0, 0, 0, 1);
 }
+.project img {
+	width: 100%;
+	height: auto;
+}
 .project > h4 {
 	position: absolute;
 	width: 100%;
 	top: 40px;
     font-family: 'robotolight';
     font-size: 28px;
-    padding: 10px;
+    padding: 10px 0px;
     text-shadow: -1px 1px 15px rgba(0, 0, 0, 1);
 	color: #1a2940;
 	letter-spacing: 5px;

@@ -1,5 +1,131 @@
-.services {
-	width: auto;
-	background: white;
 
+
+.services {
+	width: 100%;
+	padding-top: 58px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+    font-family: 'robotoregular';
+}
+
+.wrap_services {
+	max-width: 1171px;
+	display: flex;
+	position: : relative;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.p_logo {
+
+	align-self: center;
+}
+
+.wrap_services > h2 {
+	font-family: 'robotomedium';
+	margin-top: 52px;
+	font-size: 35px;
+	line-height: 25px;
+	color: #1a2940;
+}
+.wrap_services  > h3 {
+	position: relative;
+	padding-top: 22px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	color: #a8b9c0;
+	font-family: 'robotoregular';
+}
+.wrap_services > h3:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 150px;
+	border-bottom: 2px solid #00c6bf;
+}
+.wrap_services > p {
+	padding-top: 26px;
+	max-width: 575px;
+	line-height: 1.2;
+	align-self: center;
+	font-family: 'robotoregular';
+	padding-bottom: 58px;
+	font-size: 15px;
+	color: #a8b9c0;
+}
+
+.numbers {
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.numbers > div {
+
+width: 371px;
+position: relative;
+}
+
+.numbers  h3 {
+	font-size: 20px;
+	color: #ffc501;
+	font-weight: 500;
+	font-family: "robotomedium";
+	margin-top: 35px;
+}
+.numbers p {
+
+	margin: 39px auto 64px;	
+	width: 303px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #a8b9c0;
+	font-weight: 400;
+	font-family: "robotoregular";
+	text-align: center;
+}
+
+.number_one {
+	margin-top: 63px;
+	padding-right: 46px;
+	
+}
+
+.pencil {
+	position: absolute;
+	top: 197px;
+	left: 150px;
+}
+
+
+.number_two {
+	margin-top: 63px;
+	
+}
+
+.monitor {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+}
+
+.number_three {
+	margin-top: 63px;
+	
+}
+
+.plug {
+	position: absolute;
+	top: 200px;
+	left: 150px;
 }

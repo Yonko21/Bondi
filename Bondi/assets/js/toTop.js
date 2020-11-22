@@ -1,10 +1,14 @@
 // Back to top button
 const toTop = document.querySelector(".toTop");
 
-window.addEventListener("scroll", () => {
+window.addEventListener('scroll', () => {
 	if (window.pageYOffset > 300) {
 		toTop.classList.add("active");
 	} else {
 		toTop.classList.remove ("active");
 	}
-})
+});
+
+toTop.addEventListener('click', function() {
+	location.href = "#";
+});
