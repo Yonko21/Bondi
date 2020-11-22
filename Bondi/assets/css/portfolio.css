@@ -154,10 +154,5 @@
 	display: flex;
 	flex-direction: column;
 }
-.project {
-	width: 80%;
-	height: auto;
-}
-
 
 }
