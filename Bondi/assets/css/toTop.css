@@ -1,12 +1,10 @@
 .toTop {
-	position: absolute;
-	opacity: 0;
+	display: none;
 }
 .toTop.active {
-	opacity: 1;
-	transition: 1s;
+	display: block;
 }
-.toTop img {
+.toTop, .toTop img {
 	width: 1.5vw;
 	height: 1vw;
 	position: fixed;
@@ -21,7 +19,7 @@
 	border-radius: 0.3vw;
 	z-index: 500;
 }
-.toTop.active img {
+.toTop, .toTop.active img {
 	bottom: 32px;
 	pointer-events: auto;
 	opacity: 1;
