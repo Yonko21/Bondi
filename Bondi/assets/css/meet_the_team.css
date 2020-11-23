@@ -22,7 +22,7 @@
 }
 .m_wrap p {
 	max-width: 971px;
-	height: 38px;
+	/*height: 38px;*/
 	color: #a8b9c0;
 	line-height: 1.2;
 	font-size: 15px;
