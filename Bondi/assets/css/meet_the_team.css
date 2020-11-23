@@ -62,12 +62,11 @@
 }
 .cont div p {
 	width: 215px;
-	height: 77px;
 	font-size: 15px;
 	color: #a8b9c0;
 	font-family: "robotoregular";
 	text-align: center;
-	margin: 33px auto 38px;
+	/*margin: 33px auto 38px;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -76,15 +75,18 @@
 		width: 90vw;
 	}
 	.meet .m_wrap .cont {
+		justify-content: space-around;
 		width: 90vw;
 		margin: auto;
+	}
+	.cont div {
+		margin-bottom: 15px;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.about .y_wrap .shell,
-	.meet .m_wrap .cont {
-		width: 270px;
-		margin: auto;
+	.meet .m_wrap{
+		width: 90vw;
+		margin: 0 auto;
 	}
 }
