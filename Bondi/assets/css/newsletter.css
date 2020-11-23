@@ -76,7 +76,7 @@ button.subscribe:hover {
 		margin: 20px auto 15px;
 		}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 	.email {
 		width: 80vw;
 		margin-left: 0;
