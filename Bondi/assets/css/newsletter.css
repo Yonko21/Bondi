@@ -15,14 +15,6 @@
 	margin-left: 113px;
 }
 
-@media screen and (max-width: 768px) {
-	.newsletter > div {
-	width: 90vw;
-	}
-	.newsletter > h4 {
-		margin: 0 auto;
-	}
-}
 
 
 form {
@@ -33,12 +25,13 @@ form {
 	font-family: "robotoregular";
 }
 
- .email {
+.email {
 	border: 1px hidden #fff;
 	background-color: #ffc400;
 	border-bottom: 1px solid #eff7fa;
 	line-height: 30px;
 	margin-left: 40px;
+	width: 440px;
 }
 .email::placeholder {
 	font-size: 15px;
@@ -46,7 +39,7 @@ form {
 	font-weight: 400;
 	font-family: "robotoregular";
 }
- button.subscribe {
+button.subscribe {
 	background-color: #19283f;
 	font-size: 15px;
 	color: #ffc501;
@@ -62,4 +55,30 @@ form {
 
 button.subscribe:hover {
 	background-color: #ff3150;
+}
+
+@media screen and (max-width: 768px) {
+		.newsletter > div {
+		width: 90vw;
+		display: flex;
+		flex-direction: column;
+		}
+		.newsletter div h4 {
+		align-self: center;
+		margin: 15px auto;
+		}
+		.newsletter div form {
+		display: block;
+		margin: 0 auto;
+		}
+		button.subscribe {
+		display: block;
+		margin: 20px auto 15px;
+		}
+}
+@media screen and (max-width: 768px) {
+	.email {
+		width: 80vw;
+		margin-left: 0;
+	}
 }
