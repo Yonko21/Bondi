@@ -38,6 +38,7 @@
 .second_column {
 	width: 171px;
 	color: #a8b9c0;
+	font-size: 13px;
 }
 .second_column ul {
 	margin-left: 6px;
@@ -51,6 +52,7 @@
     width: 171px;
     text-align: left;
     color: #a8b9c0;
+    font-size: 13px;
 }
 .third_column ul {
 	margin-left: 6px;
@@ -63,22 +65,24 @@
 	margin-top: 50px;
     width: 398px;
 	color: #a8b9c0;
+	font-size: 13px;
     line-height: 40px;   
 }
 .footer_nav .active {
 	font-size: 15px;
 	color: #fff;
 }
-.button {
-    width: 400px;
+.footer {
+    width: 390px;
     height: 52px;
 	background-color: #ff3150;
 	color: #fff;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 22px;
-	margin-top: 35px;
+	margin-top: 20px;
 	cursor: pointer;
+	border: none;
 }
 .social {
 	display: inline-flex;
@@ -86,36 +90,73 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.social li {
-	margin-left: 10px;
-}
 .facebook {
+	position: relative;
 	width: 41px;
 	height: 41px;
 	background-color: #347bd2;
 	border-radius: 50px;
+}
+.facebook > img {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }	
 .twitter {
+	position: relative;
 	width: 41px;
 	height: 41px;
 	margin-left: 10px;
 	background-color: #1ec4ff;
 	border-radius: 50px;
 }
+.twitter > img {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}		
 .google {
+	position: relative;
 	width: 41px;
 	height: 41px;
 	margin-left: 10px;
 	background-color: #ff4031;
 	border-radius: 50px;
 }
+.google > img {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}		
 .dribble {
+	position: relative;
 	width: 41px;
 	height: 41px;
 	margin-left: 10px;
 	background-color: #ff3197;
 	border-radius: 50px;
 }
+.dribble > img {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}		
 .clearfix::after {
   	content: "";
   	clear: both;
