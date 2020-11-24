@@ -18,7 +18,7 @@
 	font-family: 'robotomedium';
 	margin-top: 52px;
 	font-size: 35px;
-	line-height: 25px;
+	line-height: 14px;
 	color: #1a2940;
 }
 .y_wrap h3 {
@@ -42,7 +42,7 @@
 }
 .y_wrap > p {
 	padding-top: 26px;
-	max-width: 575px;
+	max-width: 585px;
 	line-height: 1.2;
 	align-self: center;
 	font-family: 'robotoregular';
@@ -75,9 +75,6 @@
 	font-weight: 300;
 	font-family: 'robotoregular';
 }
-/*.y_wrap .retina p br {
-	height: 27px;
-}*/
 .comp {
 	display: block;
 	width: 720px;
