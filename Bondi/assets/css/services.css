@@ -2,35 +2,22 @@
 
 .services {
 	width: 100%;
-<<<<<<< Updated upstream
 	padding-top: 58px;
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
     font-family: 'robotoregular';
-=======
-	/*height: 996px;*/
-	background-color: #ffffff;
-	padding-top: 71px;
-	position: relative;
-	
->>>>>>> Stashed changes
 }
 
 .wrap_services {
 	max-width: 1171px;
 	display: flex;
-<<<<<<< Updated upstream
 	position: : relative;
-=======
-	position: relative;
->>>>>>> Stashed changes
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 }
 
-<<<<<<< Updated upstream
 .h_logo {
 
 	align-self: center;
@@ -158,9 +145,5 @@ position: relative;
 	display: flex;
 	flex-direction: column;
 }
-=======
-.logo {
-	align-self: center;
->>>>>>> Stashed changes
 
 }
