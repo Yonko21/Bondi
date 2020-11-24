@@ -60,7 +60,16 @@ nav {
  .search {
 	margin-left: 24px;
 	cursor: pointer;
+<<<<<<< Updated upstream
 	
+=======
+}
+
+
+.header_search {
+	margin-left: 24px;
+	display: none;
+>>>>>>> Stashed changes
 
 }
 
@@ -76,6 +85,9 @@ nav {
 	margin-left: 21px;
 	cursor: pointer;
 	
+}
+.login:hover {
+	font-size: 16px;
 }
 
 .taste {
@@ -117,6 +129,7 @@ nav {
 
 }
 
+<<<<<<< Updated upstream
 .login:hover {
     font-size: 16px;
 	background-color: #F42F4D;
@@ -161,3 +174,10 @@ nav {
     text-align: left;
   }
 } 
+=======
+.get:hover {
+	font-size: 16px;
+
+
+}
+>>>>>>> Stashed changes
