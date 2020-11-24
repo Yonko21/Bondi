@@ -12,6 +12,7 @@ function myFunction() {
   }
 } 
 /*Close after Click-Select*/
+
 /*window.onclick = function(event) {
     if (event.target == myTopnav) {
         topnav.style.display = "none";

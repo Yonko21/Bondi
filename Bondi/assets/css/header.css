@@ -156,6 +156,8 @@ margin-right: 50px;
 	right: 100px;	
 	background-color: #19283f;
 	border: 1px solid #00c7c0;
+	-webkit-animation: animatezoom 0.6s;
+  	animation: animatezoom 0.6s
 
 }
 .responsive .wrap ul:after {
@@ -168,6 +170,8 @@ margin-right: 50px;
 	display:block;;
 	right: 175px;
 	margin-top: 0px;
+	-webkit-animation: animatezoom 0.6s;
+  	animation: animatezoom 0.6s
 }
 
 @media screen and (max-width: 768px) {
