@@ -18,7 +18,7 @@
 	text-align: center;
 }
 
-.p_logo {
+.h_logo {
 
 	align-self: center;
 }
@@ -128,4 +128,22 @@ position: relative;
 	position: absolute;
 	top: 200px;
 	left: 150px;
+}
+
+@media screen and (max-width: 768px) {
+	.wrap_services {
+	width: 90vw;
+	}
+	.projects {
+	justify-content: space-around;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+.numbers {
+	display: flex;
+	flex-direction: column;
+}
+
 }
