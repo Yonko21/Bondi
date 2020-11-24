@@ -11,7 +11,16 @@ function myFunction() {
     x.className = "topnav";
   }
 } 
-
+/*Close after Click-Select*/
+/*window.onclick = function(event) {
+    if (event.target == myTopnav) {
+        topnav.style.display = "none";
+    }
+}*/
+/**/
+/*$('.topnav-nav>li>a').on('click', function(){
+    $('.topnav-collapse').collapse('hide');
+});*/
 
 /*Active by Scroll*/
 

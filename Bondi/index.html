@@ -21,7 +21,7 @@
 			<nav class="topnav" id="myTopnav">
 				<div id="active_nav">
 				<div class="wrap">	
-					 <img  class="logo"src="assets/img/header/Logo.png"alt="Logo_Header">
+					 <img  class="logo" src="assets/img/header/Logo.png"alt="Logo_Header">
 					
 					<ul id="myDIV">
 						<li><a class="btn active" href="#home" title="Home">Home</a></li>
@@ -31,11 +31,14 @@
 						<li><a class="btn" href="#meet" title="Meet Us">Meet Us</a></li>
 						<li><a class="btn" href="#blog" title="Blog">Blog</a></li>
 						<li><a class="btn" href="#contact" title="Contact">Contact</a></li>
-						<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    					<i class="fa fa-bars"></i></a></li>
 					</ul>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    					<i class="fa fa-bars"></i></a>
+
 						<!-- Search Button-->
-						 <!-- <div id="myOverlay" class="overlay">
+
+						<img class="search" src="assets/img/header/search.png"  onclick="openSearch()"> 
+						 <div id="myOverlay" class="overlay">
 							  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
 			  					<div class="overlay-content">
 							    <form action="https://www.google.com/search?">
@@ -43,17 +46,17 @@
 							      <button type="submit"><i class="fa fa-search"></i></button>
 							    </form>
 							  </div>
-							</div>  -->
+							</div> 
+						<!-- Final  Search Button-->
 
-						<img class="search" src="assets/img/header/search.png"  onclick="openSearch()"> 
 						<!--Login Button-->
-							<button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+						<button class="login" onclick="document.getElementById('id01').style.display='block'" ;>Login</button>
 
-							<!-- <div id="id01" class="modal">
+							<div id="id01" class="modal">
   							  <form class="modal-content animate" action="/action_page.php" method="post">
 							    <div class="imgcontainer">
 							      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-							      <img src="assets/img/header/img_avatar2.png" alt="Avatar" class="avatar">
+							      <img src="assets/img/header/img_avatar3.png" alt="Avatar" class="avatar">
 							    </div>
 
 							    <div class="container">
@@ -61,9 +64,9 @@
 							      <input type="text" placeholder="Enter Username" name="uname" required>
 
 							      <label for="psw"><b>Password</b></label>
-							      <input type="password" placeholder="Enter Password" name="psw" required>
-							        
-							      <button type="submit">Login</button>
+							      <input type="password" placeholder="Enter Password" name="psw" required>				
+							       <button type="submit">Login</button>
+							     
 							      <label>
 							        <input  type="checkbox" checked="checked" name="remember">Remember me
 							      </label>
@@ -74,17 +77,18 @@
 							      <span class="psw">Forgot <a href="#">password?</a></span>
 							    </div>
 							  </form>
-							</div> -->
+							</div>
 				<!--Final Login Button-->			
 				</div>
 			</nav>
 				
 				<div id="home" class="taste">
-					<h2 >Taste the Creativity</h2>
+					<h2>Taste the Creativity</h2>
 					<p>We make awesome graphic and web design</p>
 					<button class="get">Get Started</button>
 				</div>
 			</header >
+			
 			<!--Services Section - Kalin-->
 		<div id="services" class="services">
 			<div class="wrap_services">
@@ -346,9 +350,7 @@
 		</footer>
 		<script src="assets/js/jquery-3.5.1.min.js"></script>
 		<script src="assets/js/header.js"></script>
-		<script src="assets/js/login.js"></script>
 		<script src="assets/js/nav.js"></script>
-		<script src="assets/js/search.js"></script>
 		<script src="assets/js/portfolio.js"></script>
 		<script src="assets/js/toTop.js"></script>
 	</body>

@@ -18,7 +18,7 @@ nav {
 
 
 .wrap {
-	width: 1171px;
+	max-width: 1171px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: flex-end;
@@ -137,27 +137,81 @@ nav {
 
 }
 
+.icon {
 
- /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+display:none;
+position: absolute;
+top: 31px;
+color: #a8b9c0;
+margin-right: 50px;
+}
+
+
+.responsive #myDIV  {
+	position: fixed;
+	display: initial;
+	width: auto;
+	top: 65px;
+	left: 100px;
+	right: 100px;	
+	background-color: #19283f;
+	border: 1px solid #00c7c0;
+
+}
+.responsive .wrap ul:after {
+	display: none;
+
+}
+
+.responsive .search,.responsive .login {
+	position: relative ;
+	display:block;;
+	right: 175px;
+	margin-top: 0px;
+}
+
 @media screen and (max-width: 768px) {
-  .topnav ul li a :not {display: none;}
-  .topnav ul li a .icon {
+
+  #myDIV,.search,.login {
+  	display: none;
+  }
+
+ .logo {
+
+  	display: flex;
+  	top: 18px;
+  	left: 0px;
+	right: 0;
+	margin: 18px 250px 25px 0;
+
+ }
+  
+ .icon {
     float: right;
-    display: block;
+    display: initial;
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 480px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive ul li a .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+
+  .#myDIV,.search,.login {
+  	display: none;
   }
-  .topnav.responsive ul li a  {
-    float: none;
-    display: block;
-    text-align: left;
+
+  .logo {
+
+  	display: flex;
+  	top: 18px;
+  	left: 0px;
+	right: 0;
+	margin: 18px 250px 25px 0;
+
   }
-} 
+  
+  .icon {
+    float: right;
+    display: initial;
+  }
+}
+
+ 

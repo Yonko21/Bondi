@@ -26,7 +26,7 @@
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 60px;
+  font-size: 40px;
   cursor: pointer;
   color: white;
 }
@@ -50,14 +50,19 @@
 }
 
 /* Style the submit button */
-#overlay button {
-  float: left;
+
+
+.overlay button {
+  float: right;
+  border-radius: 0;
   width: 20%;
+  height: 50px;
   padding: 15px;
   background: #ddd;
   font-size: 17px;
   border: none;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .overlay button:hover {
