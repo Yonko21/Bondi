@@ -69,12 +69,14 @@
 	margin: 0 auto;
 	text-align: center;
 	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
 	}
 
 .wrap_blog .n_center [class*='news_'] {
 	box-sizing: border-box;
-	margin: 15px;
-	height: 190px;
+	/* margin: 15px; */
+	/* height: 190px; */
 	width: 370px;
 	display: inline-block;
 
