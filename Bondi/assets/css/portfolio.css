@@ -16,9 +16,6 @@
 	justify-content: flex-start;
 	text-align: center;
 }
-.p_logo {
-	align-self: center;
-}
 .wrap_portfolio h2 {
     font-family: 'robotomedium';
 	font-size: 35px;
