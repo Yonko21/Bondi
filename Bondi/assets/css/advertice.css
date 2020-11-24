@@ -1,25 +1,30 @@
-.blue {
+.b_ground {
 	background-color: #19283f;
+
 }
 
-.wrap_390 {
-	width: 570px;
-	height: 390px;
+.b_ground .wrap_390 {
+	width: 100%;
+	max-width: 1171px;
+	height: 389px;
+	background-color: #19283f;
 	position: static;
-	margin: 0px auto;}
+	margin: 0px auto;
+}
 
-.advertise .wrap_390 h1 {
+.b_ground .advertise .wrap_390 h1 {
 	font-family: 'robotomedium';
 	text-align: center;
 	color: #fff;
-	font-size: 25px;
+	font-size: 35px;
 	position: relative;
 	width: 	100%;
 	top: 105px;
 	margin: 0px auto;
+	margin-bottom: 5px;	
 }
 
-.advertise .wrap_390 p {
+.b_ground .advertise .wrap_390 p {
 	font-family: 'robotoregular';
 	color: #a8b9c0;
 	display: block;
@@ -29,21 +34,30 @@
 	font-size: 15px;
 	position: relative;
 	top: 125px;
-	margin-bottom: 200px;
+	margin-bottom: 210px;
 }
 
-.advertise .wrap_390 button {
+.b_ground .advertise .wrap_390 button {
+	width: 208px;
+	height: 45px;
+	border-radius: 21px;
+	background-color: #ff3150;
 	display: block;
 	font-family: 'robotomedium';
 	border: none;
-	background: #ff3150;
+	font-weight: 500;
 	color: #ffc501;
-	border-radius: 10px;
 	box-sizing: border-box;
-	width: 188px;
-	height: 42px;
 	font-size: 15px;
 	text-transform: uppercase;
 	
-	margin: 0px auto;	
+	margin: 0px auto;
+	transition: 0.3s;
 }
+
+.b_ground .advertise .wrap_390 button:hover{
+	cursor: pointer;
+	font-size: 18px;
+	transition: 0.3s;
+}
+

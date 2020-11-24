@@ -1,7 +1,12 @@
-.wrap_blog {
-	max-width: 100%;
+.bground {
+	padding: 58px 0px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #fff;
+}
+
+.wrap_blog {
+	width: 1171px;
 }
 
 /*---->yellow img<----*/
@@ -37,7 +42,7 @@
 	margin: 0 auto 58px;
 	text-transform: uppercase;
 	text-decoration: none;
-	border-bottom: 1px solid #00c6bf;
+	border-bottom: 1px solid #00c6bf !important;
 	transition: 0.3s;
 	line-height: 37px;
 }
@@ -61,22 +66,25 @@
 
 /*---->All Blogs<----*/
 .wrap_blog .n_center {
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	text-align: center;
-	margin-right: 30px;
-}
+	box-sizing: border-box;
+	}
 
-.wrap_blog .n_center [class*='news'] {
-	/*background: blue;*/
-	/*margin: 0 auto;*/
+.wrap_blog .n_center [class*='news_'] {
+	box-sizing: border-box;
+	margin: 15px;
+	height: 190px;
 	width: 370px;
 	display: inline-block;
+
 }
 /*---->Blog --- 1<----*/
 .wrap_blog .n_center div.news_1 {
 	text-align: left;
 }
 .wrap_blog .n_center [class*='news_'] .p_date{
+	margin-top: 18px;
 	font-size: 13px;
 	color: #a8b9c0;
 	font-weight: 400;
@@ -88,6 +96,7 @@
 	color: #1a2940;
 	font-weight: 400;
 	font-family: 'robotoregular';
+	margin-top: 15px;
 }
 
 /*---->Blog --- 2<----*/
@@ -97,18 +106,23 @@
 /*---->Blog --- 3<----*/
 .wrap_blog .n_center div.news_3 {
 	text-align: left;
+	margin-right: 0px;
 }
 /*---->Images at all of the Blogs<----*/
 .wrap_blog .n_center [class*='news_'] img {
-	width: 100%;
+	width: 370px;
+	height: 130px;
+	object-fit: cover;
 }
 
+
+
 /*---->Button<----*/
-.wrap_blog button {
+.wrap_blog button  {
 	display: block;
 	border: none;
-	background: #ff3150;
-	border-radius: 30px;
+	background-color: #ff3150;
+	border-radius: 20px;
 	box-sizing: border-box;
 	margin: 60px auto 0px;
 	text-transform: uppercase;
@@ -118,4 +132,55 @@
 	color: #ffc501;
 	font-weight: 500;
 	font-family: 'robotomedium';
+	transition: 0.3s;
+}
+
+.wrap_blog button:hover {
+	cursor: pointer;
+	font-size: 18px;
+	transition: 0.3s;
+	
+}
+
+
+@media only screen and (min-width: 0px) {
+	.wrap_blog {
+	width: 100%;
+	margin: 0 auto;
+	}
+
+	.wrap_blog .n_center div.news_3 {
+	text-align: left;
+	margin-right: 15px;
+}	
+}
+
+@media only screen and (min-width: 480px) {
+	.wrap_blog {
+	width: 100%;	
+	margin: 0 auto;
+	}
+
+	.wrap_blog .n_center div.news_3 {
+	text-align: left;
+	margin-right: 15px;
+}
+
+	.wrap_blog .n_center {
+	text-align: center;
+	}
+}
+
+@media only screen and (min-width: 1171px) {
+	.wrap_blog {
+		max-width: 1171px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.wrap_blog .n_center {
+	margin: 0 auto;
+	text-align: center;
+}
+
 }
