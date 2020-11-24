@@ -170,9 +170,13 @@
 	display: flex;
 	flex-direction: column;
 }
-
+}
 @media screen and (max-width: 480px) {
 .wrap_footer {
 	display: flex;
 	flex-direction: column;
 }	
+.footer {
+    width: 90vw;
+}
+}
